@@ -47,28 +47,28 @@ Select your favorite team (or skip it and select it later from the Settings menu
 ## Screenshots
 
 <img src="/Screenshots/app (21).png" align="left"
-width="300"
+width="400"
     hspace="10" vspace="10">
 <img src="/Screenshots/app (3).png" align="center"
-width="300"
+width="400"
     hspace="10" vspace="10">
 <img src="/Screenshots/app (6).png" align="left"
-width="300"
+width="400"
     hspace="10" vspace="10">
 <img src="/Screenshots/app (7).png" align="center"
-width="300"
+width="400"
     hspace="10" vspace="10">
 <img src="/Screenshots/app (20).png" align="left"
-width="300"
+width="400"
     hspace="10" vspace="10">
 <img src="/Screenshots/app (8).png" align="center"
-width="300"
+width="400"
     hspace="10" vspace="10">
 <img src="/Screenshots/app (9).png" align="left"
-width="300"
+width="400"
     hspace="10" vspace="10">
 <img src="/Screenshots/app (12).png" align="center"
-width="300"
+width="400"
     hspace="10" vspace="10">
     
 ## Changelog
