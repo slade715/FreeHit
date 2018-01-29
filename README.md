@@ -2,10 +2,10 @@
 
 FreeHit is an ad-free lightweight all-in-one app for all your cricket information.
 
-<img src="/Screenshots/logo.png" align="left" height="120" width="120" hspace="10" vspace="10">
+<img src="/Screenshots/logo.png" align="left" height="95" width="95">
 
 <a href="https://play.google.com/store/apps/details?id=com.debut.ellipsis.freehit" target="_blank">
-<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="100"/></a>
+<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="75"/></a>
 
 
 
@@ -85,4 +85,4 @@ width="400"
 - Added About section, we will keep all users posted on upcoming updates and planned progress through this section (Also includes links to potential future projects and contact info, hit us up!)
 - General Performance improvements, app should be smoother and shuold consume less memory (Please inform us if any issues are faced)
 
-Note : It's been a while since we have made any changes as we were busy with college, however we are now back on track so leave all your feedback, negative or positive and expect frequent updates
+<b>Note :</b> It's been a while since we have made any changes as we were busy with college, however we are now back on track so leave all your feedback, negative or positive and expect frequent updates
