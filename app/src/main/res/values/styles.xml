@@ -1,0 +1,215 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowDisablePreview">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="alertDialogTheme">@style/AppCompatAlertDialogStyleLight</item>
+        <item name="colorAccent">@color/colorSecondary</item>
+
+        <!--Custom from attributes-->
+        <item name="backgroundcolor">@color/background</item>
+        <item name="viewpager">@color/background</item>
+        <item name="cardsbackground">@color/match_cards</item>
+        <item name="textcolor">@android:color/black</item>
+        <item name="secondarytextcolor">#515151</item>
+        <item name="headingbackground">@color/colorPrimary</item>
+        <item name="buttontextcolor">@android:color/white</item>
+        <item name="headingtext">@android:color/white</item>
+        <item name="playingx1heading">@color/tw__composer_light_gray</item>
+        <item name="spinnerbackground">@color/background</item>
+        <item name="buttoncolour">@android:color/black</item>
+        <item name="updatepositive">@color/primary</item>
+        <item name="updatebackground">@color/primary</item>
+
+        <!-- MaterialDrawer specific values -->
+        <item name="material_drawer_background">@color/material_drawer_background</item>
+        <item name="material_drawer_primary_text">@color/material_drawer_primary_text</item>
+        <item name="material_drawer_primary_icon">@color/material_drawer_primary_icon</item>
+        <item name="material_drawer_secondary_text">@color/material_drawer_primary_text</item>
+        <item name="material_drawer_hint_text">@color/material_drawer_hint_text</item>
+        <item name="material_drawer_divider">@color/material_drawer_divider</item>
+        <item name="material_drawer_selected">@color/material_drawer_selected</item>
+        <item name="material_drawer_selected_text">@color/material_drawer_selected_text</item>
+        <item name="material_drawer_header_selection_text">@color/material_drawer_header_selection_text</item>
+
+    </style>
+
+    <!-- Dark base activity theme -->
+    <style name="AppThemeDark" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="colorPrimary">#23252b</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="alertDialogTheme">@style/AppCompatAlertDialogStyleDark</item>
+        <item name="colorAccent">@color/colorSecondary</item>
+
+        <!--Custom from attributes-->
+        <item name="backgroundcolor">@color/match_pager</item>
+        <item name="viewpager">@color/match_pager</item>
+        <item name="cardsbackground">@color/night_background</item>
+        <item name="textcolor">@android:color/white</item>
+        <item name="secondarytextcolor">@color/match_card_text</item>
+        <item name="headingbackground">@color/dark</item>
+        <item name="buttontextcolor">@android:color/black</item>
+        <item name="headingtext">@android:color/white</item>
+        <item name="playingx1heading">@color/tw__composer_deep_gray</item>
+        <item name="spinnerbackground">@color/spinner_background</item>
+        <item name="buttoncolour">@android:color/black</item>
+        <item name="updatepositive">@android:color/black</item>
+        <item name="updatebackground">@color/night_background</item>
+
+        <!-- MaterialDrawer specific values -->
+        <item name="material_drawer_background">@color/night_background</item>
+        <item name="material_drawer_primary_text">@color/dark_text</item>
+        <item name="material_drawer_primary_icon">@color/tw__composer_white</item>
+        <item name="material_drawer_secondary_text">@color/dark_text</item>
+        <item name="material_drawer_hint_text">@color/material_drawer_hint_text</item>
+        <item name="material_drawer_divider">@color/material_drawer_divider</item>
+        <item name="material_drawer_selected">@color/drawer_bg</item>
+        <item name="material_drawer_selected_text">@color/tw__composer_white</item>
+        <item name="material_drawer_header_selection_text">@color/material_drawer_header_selection_text</item>
+    </style>
+
+
+    <style name="SettingsThemeLight" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowDisablePreview">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="alertDialogTheme">@style/AppCompatAlertDialogStyleLight</item>
+        <item name="colorAccent">@color/colorSecondary</item>
+
+        <!--Custom from attributes-->
+        <item name="backgroundcolor">@color/background</item>
+        <item name="viewpager">@color/background</item>
+        <item name="cardsbackground">@color/match_cards</item>
+        <item name="textcolor">@android:color/black</item>
+        <item name="secondarytextcolor">#515151</item>
+        <item name="headingbackground">@color/colorPrimary</item>
+        <item name="buttontextcolor">@android:color/white</item>
+        <item name="headingtext">@android:color/white</item>
+        <item name="playingx1heading">@color/tw__composer_light_gray</item>
+        <item name="spinnerbackground">@color/background</item>
+        <item name="buttoncolour">@android:color/black</item>
+
+        <!-- MaterialDrawer specific values -->
+        <item name="material_drawer_background">@color/material_drawer_background</item>
+        <item name="material_drawer_primary_text">@color/material_drawer_primary_text</item>
+        <item name="material_drawer_primary_icon">@color/material_drawer_primary_icon</item>
+        <item name="material_drawer_secondary_text">@color/material_drawer_primary_text</item>
+        <item name="material_drawer_hint_text">@color/material_drawer_hint_text</item>
+        <item name="material_drawer_divider">@color/material_drawer_divider</item>
+        <item name="material_drawer_selected">@color/material_drawer_selected</item>
+        <item name="material_drawer_selected_text">@color/material_drawer_selected_text</item>
+        <item name="material_drawer_header_selection_text">@color/material_drawer_header_selection_text</item>
+
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="SettingsThemeDark" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="colorPrimary">#23252b</item>
+        <item name="colorPrimaryDark">#000000</item>
+        <item name="alertDialogTheme">@style/AppCompatAlertDialogStyleDark</item>
+        <item name="colorAccent">@color/colorSecondary</item>
+
+        <!--Custom from attributes-->
+        <item name="backgroundcolor">@color/match_pager</item>
+        <item name="viewpager">@color/match_pager</item>
+        <item name="cardsbackground">@color/night_background</item>
+        <item name="textcolor">@android:color/white</item>
+        <item name="secondarytextcolor">@color/match_card_text</item>
+        <item name="headingbackground">@color/dark</item>
+        <item name="buttontextcolor">@android:color/black</item>
+        <item name="headingtext">@android:color/white</item>
+        <item name="playingx1heading">@color/tw__composer_deep_gray</item>
+        <item name="spinnerbackground">@color/spinner_background</item>
+        <item name="buttoncolour">@android:color/black</item>
+
+        <!-- MaterialDrawer specific values -->
+        <item name="material_drawer_background">@color/night_background</item>
+        <item name="material_drawer_primary_text">@color/dark_text</item>
+        <item name="material_drawer_primary_icon">@color/tw__composer_white</item>
+        <item name="material_drawer_secondary_text">@color/dark_text</item>
+        <item name="material_drawer_hint_text">@color/material_drawer_hint_text</item>
+        <item name="material_drawer_divider">@color/material_drawer_divider</item>
+        <item name="material_drawer_selected">@color/drawer_bg</item>
+        <item name="material_drawer_selected_text">@color/tw__composer_white</item>
+        <item name="material_drawer_header_selection_text">@color/material_drawer_header_selection_text</item>
+
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/background_splash</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MineCustomTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/_8sdp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="MineCustomTabTextOther" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/_12sdp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyleLight" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/colorPrimaryLight</item>
+        <item name="android:textColorPrimary">@color/dark</item>
+        <item name="android:background">@color/background</item>
+    </style>
+
+    <style name="AppCompatAlertDialogStyleDark" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/tw__composer_white</item>
+        <item name="android:textColorPrimary">@color/tw__composer_white</item>
+        <item name="android:background">@color/night_background</item>
+    </style>
+
+    <style name="About">
+        <item name="android:windowBackground">@color/scrim</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:windowEnterTransition">@transition/about_enter</item>
+        <item name="android:windowReturnTransition">@transition/about_return</item>
+    </style>
+
+    <style name="PopTheme" parent="@android:style/Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowAnimationStyle">@style/PopThemeAnimations</item>
+    </style>
+
+    <style name="PopThemeAnimations">
+        <item name="android:windowEnterAnimation">@anim/pop_in</item>
+        <item name="android:windowExitAnimation">@anim/pop_out</item>
+    </style>
+
+</resources>

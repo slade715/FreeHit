@@ -1,0 +1,374 @@
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    tools:context="com.debut.ellipsis.freehit.Stats.Rankings.RankingFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        card_view:cardBackgroundColor="?attr/cardsbackground"
+        card_view:cardCornerRadius="@dimen/_8sdp"
+        card_view:cardElevation="@dimen/_2sdp"
+        android:padding="@dimen/_3sdp"
+        card_view:cardUseCompatPadding="true">
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/country_image1"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            tools:src="@drawable/matches_vector" />
+
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="?attr/cardsbackground"
+        card_view:cardCornerRadius="@dimen/_8sdp"
+        card_view:cardElevation="@dimen/_2sdp"
+        android:padding="@dimen/_3sdp"
+        card_view:cardUseCompatPadding="true">
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/country_image2"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            tools:src="@drawable/matches_vector" />
+
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="?attr/cardsbackground"
+        card_view:cardCornerRadius="@dimen/_8sdp"
+        card_view:cardElevation="@dimen/_2sdp"
+        android:padding="@dimen/_3sdp"
+        card_view:cardUseCompatPadding="true">
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/country_image3"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            tools:src="@drawable/matches_vector" />
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="?attr/cardsbackground"
+            card_view:cardCornerRadius="@dimen/_8sdp"
+            card_view:cardElevation="@dimen/_2sdp"
+            android:padding="@dimen/_3sdp"
+            card_view:cardUseCompatPadding="true">
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/country_image4"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                tools:src="@drawable/matches_vector" />
+
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="?attr/cardsbackground"
+            card_view:cardCornerRadius="@dimen/_8sdp"
+            card_view:cardElevation="@dimen/_2sdp"
+            android:padding="@dimen/_3sdp"
+            card_view:cardUseCompatPadding="true">
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/country_image5"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                tools:src="@drawable/matches_vector" />
+
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="?attr/cardsbackground"
+            card_view:cardCornerRadius="@dimen/_8sdp"
+            card_view:cardElevation="@dimen/_2sdp"
+            android:padding="@dimen/_3sdp"
+            card_view:cardUseCompatPadding="true">
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/country_image6"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                tools:src="@drawable/matches_vector" />
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="?attr/cardsbackground"
+            card_view:cardCornerRadius="@dimen/_8sdp"
+            card_view:cardElevation="@dimen/_2sdp"
+            android:padding="@dimen/_3sdp"
+            card_view:cardUseCompatPadding="true">
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/country_image7"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                tools:src="@drawable/matches_vector" />
+
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="?attr/cardsbackground"
+            card_view:cardCornerRadius="@dimen/_8sdp"
+            card_view:cardElevation="@dimen/_2sdp"
+            android:padding="@dimen/_3sdp"
+            card_view:cardUseCompatPadding="true">
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/country_image8"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                tools:src="@drawable/matches_vector" />
+
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="?attr/cardsbackground"
+            card_view:cardCornerRadius="@dimen/_8sdp"
+            card_view:cardElevation="@dimen/_2sdp"
+            android:padding="@dimen/_3sdp"
+            card_view:cardUseCompatPadding="true">
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/country_image9"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                tools:src="@drawable/matches_vector" />
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="?attr/cardsbackground"
+            card_view:cardCornerRadius="@dimen/_8sdp"
+            card_view:cardElevation="@dimen/_2sdp"
+            android:padding="@dimen/_3sdp"
+            card_view:cardUseCompatPadding="true">
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/country_image10"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                tools:src="@drawable/matches_vector" />
+
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="?attr/cardsbackground"
+            card_view:cardCornerRadius="@dimen/_8sdp"
+            card_view:cardElevation="@dimen/_2sdp"
+            android:padding="@dimen/_3sdp"
+            card_view:cardUseCompatPadding="true">
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/country_image11"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                tools:src="@drawable/matches_vector" />
+
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="?attr/cardsbackground"
+            card_view:cardCornerRadius="@dimen/_8sdp"
+            card_view:cardElevation="@dimen/_2sdp"
+            android:padding="@dimen/_3sdp"
+            card_view:cardUseCompatPadding="true">
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/country_image12"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                tools:src="@drawable/matches_vector" />
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="?attr/cardsbackground"
+            card_view:cardCornerRadius="@dimen/_8sdp"
+            card_view:cardElevation="@dimen/_2sdp"
+            android:padding="@dimen/_3sdp"
+            card_view:cardUseCompatPadding="true">
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/country_image13"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                tools:src="@drawable/matches_vector" />
+
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="?attr/cardsbackground"
+            card_view:cardCornerRadius="@dimen/_8sdp"
+            card_view:cardElevation="@dimen/_2sdp"
+            android:padding="@dimen/_3sdp"
+            card_view:cardUseCompatPadding="true">
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/country_image14"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                tools:src="@drawable/matches_vector" />
+
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/card_view15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            card_view:cardBackgroundColor="?attr/cardsbackground"
+            card_view:cardCornerRadius="@dimen/_8sdp"
+            card_view:cardElevation="@dimen/_2sdp"
+            android:padding="@dimen/_3sdp"
+            card_view:cardUseCompatPadding="true">
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/country_image15"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                tools:src="@drawable/matches_vector" />
+
+
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <include
+        android:id="@+id/toolbar_player"
+        layout="@layout/common_toolbar" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_player" />
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_225sdp"
+        android:layout_below="@id/toolbar_player"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/player_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="invisible">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/background_image"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_185sdp"
+                android:scaleType="centerCrop"
+                tools:src="@drawable/nav_header" />
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/Player_image"
+                android:layout_width="@dimen/_60sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_25sdp"
+                tools:src="@drawable/matches_vector" />
+
+            <TextView
+                android:id="@+id/Player_name_stats_info"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Player_image"
+                android:layout_centerHorizontal="true"
+                android:textColor="?attr/headingtext"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="bold"
+                tools:text="PlayerName" />
+
+
+            <TextView
+                android:id="@+id/player_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/Player_name_stats_info"
+                android:layout_centerHorizontal="true"
+                android:textColor="?attr/headingtext"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                tools:text="country" />
+
+            <TextView
+                android:id="@+id/Age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/player_country"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:textColor="?attr/headingtext"
+                android:textSize="@dimen/_10sdp"
+                android:textStyle="bold"
+                tools:text="9999/9999/999" />
+        </RelativeLayout>
+
+        <com.debut.ellipsis.freehit.Stats.Player.SlidingTabLayout
+            android:id="@+id/navig_tab"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_42sdp"
+            android:background="?attr/backgroundcolor"
+            app:indicatorColor="@color/colorSecondary"
+            app:shouldExpand="true"
+            app:tabBackground="@layout/fragment_stats_player_sliding_tab_view"
+            app:tabBackgroundTextViewId="@+id/tab_textview" />
+
+    </LinearLayout>
+
+    <include
+        android:id="@+id/progress"
+        layout="@layout/common_progressbar" />
+
+    <include
+        android:id="@+id/empty"
+        layout="@layout/common_emptyview" />
+
+</RelativeLayout>

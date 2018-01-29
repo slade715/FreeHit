@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/social_tabs"
+        layout="@layout/common_tabs" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <include
+            android:id="@+id/social_viewpager"
+            layout="@layout/common_viewpager" />
+
+        <TextView
+            android:id="@+id/No_match_data"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_20sdp"
+            android:visibility="gone"
+            android:textColor="?attr/textcolor"
+            android:text="@string/no_match_data"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

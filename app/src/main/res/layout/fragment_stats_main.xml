@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/player"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_115sdp"
+                android:layout_gravity="center"
+                android:padding="@dimen/_13sdp"
+                card_view:cardBackgroundColor="?attr/cardsbackground"
+                card_view:cardCornerRadius="@dimen/_4sdp"
+                card_view:cardElevation="@dimen/_4sdp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:src="@drawable/player_vector"
+                        android:tint="?attr/textcolor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:elevation="@dimen/_15sdp"
+                        android:text="@string/search_player"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/team"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_115sdp"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:padding="@dimen/_13sdp"
+                card_view:cardBackgroundColor="?attr/cardsbackground"
+                card_view:cardCornerRadius="@dimen/_4sdp"
+                card_view:cardElevation="@dimen/_4sdp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:src="@drawable/team_vector"
+                        android:tint="?attr/textcolor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:elevation="@dimen/_15sdp"
+                        android:text="@string/search_team"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/series"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_115sdp"
+                android:layout_gravity="center"
+                android:padding="@dimen/_13sdp"
+                card_view:cardBackgroundColor="?attr/cardsbackground"
+                card_view:cardCornerRadius="@dimen/_4sdp"
+                card_view:cardElevation="@dimen/_4sdp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_46sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:src="@drawable/series_vector"
+                        android:tint="?attr/textcolor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:elevation="@dimen/_15sdp"
+                        android:text="@string/search_series"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/rankings"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_115sdp"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/_8sdp"
+                android:padding="@dimen/_13sdp"
+                card_view:cardBackgroundColor="?attr/cardsbackground"
+                card_view:cardCornerRadius="@dimen/_4sdp"
+                card_view:cardElevation="@dimen/_4sdp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:src="@drawable/ranking"
+                        android:tint="?attr/textcolor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:elevation="@dimen/_15sdp"
+                        android:text="@string/rankings"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/fav_team"
+                android:layout_width="@dimen/_200sdp"
+                android:layout_height="@dimen/_115sdp"
+                android:layout_gravity="center"
+                android:padding="@dimen/_13sdp"
+                card_view:cardBackgroundColor="?attr/cardsbackground"
+                card_view:cardCornerRadius="@dimen/_4sdp"
+                card_view:cardElevation="@dimen/_4sdp"
+                card_view:cardUseCompatPadding="true">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <android.support.v7.widget.AppCompatImageView
+                        android:layout_width="@dimen/_120sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/_10sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:src="@drawable/fav_vector"
+                        android:tint="?attr/textcolor" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:elevation="@dimen/_15sdp"
+                        android:text="@string/fav_team"
+                        android:textColor="?attr/textcolor"
+                        android:textSize="@dimen/_15sdp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <include
+        android:id="@+id/welcome_viewpager"
+        layout="@layout/common_viewpager" />
+
+    <LinearLayout
+        android:id="@+id/layoutDots"
+        android:layout_width="@dimen/_200sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_12sdp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_above="@id/layoutDots"
+        android:alpha=".5"
+        android:background="@android:color/white" />
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@null"
+        android:text="@string/next"
+        android:textColor="@android:color/white"
+        tools:ignore="RelativeOverlap" />
+
+</RelativeLayout>

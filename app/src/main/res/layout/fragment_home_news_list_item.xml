@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/news_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_5sdp"
+    android:paddingStart="@dimen/_3sdp"
+    android:paddingEnd="@dimen/_3sdp"
+    android:background="?attr/backgroundcolor"
+    tools:context="com.debut.ellipsis.freehit.News.NewsFragment">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        card_view:cardBackgroundColor="?attr/cardsbackground"
+        card_view:cardCornerRadius="@dimen/_3sdp"
+        card_view:cardElevation="@dimen/_3sdp"
+        card_view:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:id="@+id/relative_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_3sdp">
+
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/image_view"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/_3sdp"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:transitionName="newsImage"
+                tools:src="@drawable/matches_vector" />
+
+            <TextView
+                android:id="@+id/header_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/image_view"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:paddingBottom="@dimen/_5sdp"
+                android:paddingEnd="@dimen/_3sdp"
+                android:paddingStart="@dimen/_5sdp"
+                android:paddingTop="@dimen/_5sdp"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="?attr/textcolor"
+                android:textSize="@dimen/_12sdp"
+                android:textStyle="bold"
+                tools:text="Virat once again plays a captains knock" />
+
+            <TextView
+                android:id="@+id/news_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/header_text_view"
+                android:layout_toEndOf="@+id/image_view"
+                android:paddingEnd="@dimen/_3sdp"
+                android:paddingStart="@dimen/_10sdp"
+                android:textSize="@dimen/_9sdp"
+                android:textColor="?attr/secondarytextcolor"
+                tools:text="27 September 2017" />
+
+            <TextView
+                android:id="@+id/summary_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image_view"
+                android:paddingBottom="@dimen/_8sdp"
+                android:paddingEnd="@dimen/_8sdp"
+                android:paddingStart="@dimen/_8sdp"
+                android:scrollHorizontally="true"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="?attr/textcolor"
+                android:textSize="@dimen/_11sdp"
+                android:textStyle="italic"
+                tools:text="Description text of the news article you should read and waste some time . This  is getting to be too long, but I have to write enough text to test the code." />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

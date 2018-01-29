@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#bf031b</color>
+    <color name="colorPrimaryDark">#870000</color>
+    <color name="colorPrimaryLight">#f94d44</color>
+
+    <color name="colorSecondary">#f4957a</color>
+    <color name="colorSecondaryDark">#be664e</color>
+    <color name="colorSecondaryLight">#ffc6a9</color>
+
+    <color name="divider">#919191</color>
+
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_100">#f7f7f7</color>
+
+    <color name="six">#4A7BA7</color>
+
+    <color name="four">#04B4B3</color>
+
+    <color name="one">#9E9E9E</color>
+
+    <color name="two">#e4b5fc</color>
+
+    <color name="three">#c873f4</color>
+
+    <color name="wide">#FF9900</color>
+
+    <color name="deflt">#8cf9eb</color>
+
+    <color name="wicket">#C03823</color>
+
+
+    <color name="match_cards">#FBFBFB</color>
+
+    <color name="dark_text">#f0f0f0</color>
+
+    <color name="drawer_night_text">#6c6c6d</color>
+
+    <color name="drawer_bg">#5c5e65</color>
+
+    <!-- Common Background for all -->
+    <color name="background">#FCFCFC</color>
+    <color name="night_background">#33343b</color>
+
+    <color name="spinner_background">#34343f</color>
+
+    <color name="match_pager">#38383b</color>
+
+    <color name="dark">#23252b</color>
+
+    <color name="cards_dark">#484a4f</color>
+
+    <color name="match_card_text">#d1d1db</color>
+
+    <color name="ranking_layout">#30303a</color>
+
+
+    <!-- For Progress Bar -->
+    <color name="orange">#FF9900</color>
+
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#AAD3E0</color>
+    <color name="bg_screen2">#009999</color>
+    <color name="bg_screen3">#388E3C</color>
+    <color name="bg_screen4">#a8c42b</color>
+    <color name="bg_screen5">#efbe28</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#7aa2ae</color>
+    <color name="dot_dark_screen2">#006a6b</color>
+    <color name="dot_dark_screen3">#00600f</color>
+    <color name="dot_dark_screen4">#759400</color>
+    <color name="dot_dark_screen5">#b88e00</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#dcffff</color>
+    <color name="dot_light_screen2">#54caca</color>
+    <color name="dot_light_screen3">#6abf69</color>
+    <color name="dot_light_screen4">#faff6a</color>
+    <color name="dot_light_screen5">#fff05f</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+        <item>@color/dot_light_screen5</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+        <item>@color/dot_dark_screen5</item>
+    </array>
+
+    <!--About colors-->
+    <color name="page_indicator_dark">#80333333</color>
+    <color name="page_indicator_dark_selected">#ff333333</color>
+    <color name="background_card">#ffffff</color>
+    <color name="text_secondary_dark">#8a000000</color>
+    <color name="text_tertiary_dark">#61000000</color>
+    <color name="scrim">#99323232</color>
+    <color name="about_background">#bf031b</color>
+
+
+</resources>
+
+

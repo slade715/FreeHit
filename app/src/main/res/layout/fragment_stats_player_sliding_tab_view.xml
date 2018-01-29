@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tab_textview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/_3sdp"
+    android:gravity="center"
+    tools:text="Player Info"
+    android:textSize="@dimen/_13sdp"
+    android:maxLines="1"
+    android:ellipsize="end"
+    android:textColor="?attr/textcolor">
+
+</TextView>

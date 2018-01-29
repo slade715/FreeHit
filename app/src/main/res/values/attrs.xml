@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ds">
+        <attr name="backgroundcolor" format="color"/>
+        <attr name="textcolor" format="color"/>
+        <attr name="secondarytextcolor" format="color"/>
+        <attr name="cardsbackground" format="color"/>
+        <attr name="viewpager" format="color"/>
+        <attr name="headingbackground" format="color"/>
+        <attr name="buttontextcolor" format="color"/>
+        <attr name="headingtext" format="color"/>
+        <attr name="playingx1heading" format="color"/>
+        <attr name="spinnerbackground" format="color|reference"/>
+        <attr name="buttoncolour" format="color" />
+        <attr name="updatepositive" format="color" />
+        <attr name="updatebackground" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="SlidingTabLayout">
+        <attr name="indicatorColor" format="color"/>
+        <attr name="shouldExpand" format="boolean" />
+        <attr name="tabBackground" format="reference" />
+        <attr name="tabBackgroundTextViewId" format="reference"/>
+    </declare-styleable>
+</resources>

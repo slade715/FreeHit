@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/backgroundcolor"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?attr/backgroundcolor"
+            android:orientation="vertical">
+
+            <include
+                android:id="@+id/team_list_toolbar"
+                layout="@layout/common_toolbar" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <include
+                    android:id="@+id/afghanistan"
+                    layout="@layout/fragment_stats_team_item" />
+
+                <include
+                    android:id="@+id/australia"
+                    layout="@layout/fragment_stats_team_item" />
+
+                <include
+                    android:id="@+id/bangladesh"
+                    layout="@layout/fragment_stats_team_item" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <include
+                    android:id="@+id/canada"
+                    layout="@layout/fragment_stats_team_item" />
+
+                <include
+                    android:id="@+id/england"
+                    layout="@layout/fragment_stats_team_item" />
+
+                <include
+                    android:id="@+id/india"
+                    layout="@layout/fragment_stats_team_item" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <include
+                    android:id="@+id/ireland"
+                    layout="@layout/fragment_stats_team_item" />
+
+                <include
+                    android:id="@+id/netherlands"
+                    layout="@layout/fragment_stats_team_item" />
+
+                <include
+                    android:id="@+id/new_zealand"
+                    layout="@layout/fragment_stats_team_item" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <include
+                    android:id="@+id/pakistan"
+                    layout="@layout/fragment_stats_team_item" />
+
+                <include
+                    android:id="@+id/south_africa"
+                    layout="@layout/fragment_stats_team_item" />
+
+                <include
+                    android:id="@+id/sri_lanka"
+                    layout="@layout/fragment_stats_team_item" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <include
+                    android:id="@+id/uae"
+                    layout="@layout/fragment_stats_team_item" />
+
+                <include
+                    android:id="@+id/west_indies"
+                    layout="@layout/fragment_stats_team_item" />
+
+                <include
+                    android:id="@+id/zimbabwe"
+                    layout="@layout/fragment_stats_team_item" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

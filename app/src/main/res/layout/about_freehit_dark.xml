@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:nestedScrollingEnabled="true"
+    tools:showIn="@layout/activity_about">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.debut.ellipsis.freehit.About.CutoutTextView
+            android:id="@+id/about_freehit_background"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_300sdp"
+            android:text="@string/app_name"
+            app:foregroundColor="@color/dark" />
+
+        <com.debut.ellipsis.freehit.About.BaselineGridTextView
+            android:id="@+id/about_description"
+            lineHeightHint="24sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/match_pager"
+            android:paddingBottom="@dimen/_30sdp"
+            android:paddingEnd="@dimen/_15sdp"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingTop="@dimen/_15sdp"
+            android:textColor="@color/md_white_1000"
+            android:textSize="@dimen/_13sdp" />
+
+    </LinearLayout>
+
+</ScrollView>

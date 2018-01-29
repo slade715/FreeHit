@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/backgroundcolor">
+
+
+    <RelativeLayout
+        android:id="@+id/parent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.baoyz.widget.PullRefreshLayout
+            android:id="@+id/swipeRefreshLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/click_to_view_more"
+            app:refreshType="ring">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:background="?attr/backgroundcolor"
+                android:clipToPadding="false"
+                android:paddingBottom="@dimen/_5sdp"
+                android:paddingTop="@dimen/_1sdp"
+                android:scrollbars="vertical" />
+
+
+        </com.baoyz.widget.PullRefreshLayout>
+
+
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/progress"
+        layout="@layout/common_progressbar" />
+
+    <include
+        android:id="@+id/Unavailable_connection"
+        layout="@layout/no_internet_connection"
+        android:visibility="invisible" />
+
+    <include
+        android:id="@+id/No_Live_Matches"
+        layout="@layout/empty_view_refresh"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

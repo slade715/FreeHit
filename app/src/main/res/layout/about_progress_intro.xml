@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.debut.ellipsis.freehit.About.BaselineGridTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/libraries_intro"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_30sdp"
+    android:layout_marginBottom="@dimen/_8sdp"
+    android:padding="@dimen/_8sdp"
+    android:text="@string/progress_of_freehit"
+    android:textStyle="bold"
+    android:textSize="@dimen/_20sdp"
+    android:textColor="@color/tw__composer_white"
+    lineHeightHint="@dimen/_18sdp"
+    tools:showIn="@layout/about_progress" />

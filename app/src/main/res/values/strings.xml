@@ -1,0 +1,208 @@
+<resources>
+    <string name="app_name">FreeHit</string>
+
+    <!-- Tab Names -->
+    <string name="category_matches">Matches</string>
+    <string name="category_news">News</string>
+    <string name="category_social">Social</string>
+    <string name="category_stats">Stats</string>
+
+    <!-- Twitter API keys -->
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">IVuwYVqrlivLssHFdqJvXnuyS</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">t8N8vM2KMCnzHJ71puVfJrOZ9NgjwE8RU5IM3L5VQfF5VfnwNr</string>
+
+    <string name="live">LIVE</string>
+
+    <!--STATS SCREEN-->
+    <string name="search_player">Player</string>
+    <string name="search_team">Team</string>
+    <string name="search_series">Series</string>
+    <string name="rankings">Rankings</string>
+    <string name="fav_team">Favourite Team</string>
+    <string name="review">Review Our App</string>
+    <string name="share">Tell a Friend</string>
+    <string name="fb_share">Follow us on Facebook</string>
+    <string name="insta_share">Follow us on Instagram</string>
+
+    <!-- FOR BOWLING IN PLAYER INFO -->
+    <string name="innings">INNINGS</string>
+    <string name="overs">OVERS</string>
+    <string name="maidens">MAIDENS</string>
+    <string name="wickets">WICKETS</string>
+    <string name="best">BEST</string>
+    <string name="wickets_3">3W</string>
+    <string name="wickets_5">5W</string>
+    <string name="average">AVERAGE</string>
+    <string name="economy">ECONOMY</string>
+
+    <string name="refresh">REFRESH</string>
+
+    <string name="night_mode">SWITCH TO NIGHT MODE</string>
+    <string name="auto_refresh">Auto refresh Live Match Data</string>
+
+    <!--COMPLETE LIST OF MATCHES-->
+    <string name="upcoming_list">Upcoming Matches</string>
+    <string name="past_list">Past Matches</string>
+    <string name="live_list">Live Matches</string>
+
+    <string name="players">Players</string>
+
+    <string name="server_issues">Our Servers are down , we\'ll be back in a while</string>
+
+    <!--FOR EMPTY VIEW OF NEWS FRAGMENT-->
+    <string name="EmptyNews">NO NEWS FOUND</string>
+
+    <!--FOR EMPTY VIEW OF POLLS FRAGMENT-->
+    <string name="EmptyPolls">Come back later to shout your opinion out !</string>
+
+    <!--FOR EMPTY VIEW LIVE MATCHES -->
+    <string name="EmptyLiveMatches">The Cricket world seems to be silent right now. Check back later</string>
+
+    <string name="EmptyMatches">NO MATCHES FOUND</string>
+
+    <string name="NoPlayers">NO PLAYERS FOUND</string>
+
+    <!--FOR TOOLS IN LIVE,UPCOMING,PAST MATCHES-->
+    <string name="matches_view_more">Click To View More !</string>
+
+    <string name="no_internet_connection">Check Your Internet Connection</string>
+
+    <string name="more">More</string>
+
+    <string name="open">Open Source</string>
+
+    <!-- for intro slide -->
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+    <string name="slide_1_title">SCORES ON THE GO!</string>
+    <string name="slide_1_desc">It couldn\'t have been easier to check scores!</string>
+    <string name="slide_2_title">NEWS</string>
+    <string name="slide_2_desc">Get the best and the latest!</string>
+    <string name="slide_3_title">POLLS AND SOCIAL</string>
+    <string name="slide_3_desc">Keep yourself updated with the latest tweets and make your voice heard with POLLs!</string>
+    <string name="slide_4_title">STATS</string>
+    <string name="slide_4_desc">Get answers to all your cricket queries!</string>
+    <string name="slide_5_title">PICK YOUR FAVOURITE COUNTRY</string>
+    <string name="slide_5_desc">Select the country that you want to follow!</string>
+    <string name="select_team_alert">PLEASE SELECT A TEAM</string>
+
+
+    <!-- For Country Picker Dialog -->
+    <string name="search">Search&#8230;</string>
+
+    <!-- Country names for Country Picker in settings -->
+    <string name="settings_team_Afghanistan_label">Afghanistan</string>
+    <string name="settings_team_Australia_label">Australia</string>
+    <string name="settings_team_Bangladesh_label">Bangladesh</string>
+    <string name="settings_team_Canada_label">Canada</string>
+    <string name="settings_team_England_label">England</string>
+    <string name="settings_team_Ireland_label">Ireland</string>
+    <string name="settings_team_India_label">India</string>
+    <string name="settings_team_Netherlands_label">Netherlands</string>
+    <string name="settings_team_NewZealand_label">New Zealand</string>
+    <string name="settings_team_Pakistan_label">Pakistan</string>
+    <string name="settings_team_SouthAfrica_label">South Africa</string>
+    <string name="settings_team_SriLanka_label">Sri Lanka</string>
+    <string name="settings_team_UnitedArabEmirates_label">United Arab Emirates</string>
+    <string name="settings_team_WestIndies_label">West Indies</string>
+    <string name="settings_team_Zimbabwe_label">Zimbabwe</string>
+
+    <!-- Strings used in Custom Settings -->
+    <string name="settings_select_team">Select Team</string>
+    <string name="settings_select_team_label">Select Team</string>
+    <string name="team_select_title">PICK YOUR FAVOURITE TEAM</string>
+    <string name="select_team_button">SELECT COUNTRY</string>
+
+
+    <!-- For Information fragment of match ScoreCard -->
+    <string name="info">MATCH Info : </string>
+    <string name="match">MATCH : </string>
+    <string name="series">SERIES : </string>
+    <string name="date">DATE : </string>
+    <string name="lastTime">TIME : </string>
+    <string name="venue">STADIUM : </string>
+    <string name="umpires">UMPIRES : </string>
+    <string name="third_umpires">3rd UMPIRES : </string>
+    <string name="referee">REFEREE : </string>
+    <string name="PlayingX1">PLAYING XI : </string>
+    <string name="weather">WEATHER : </string>
+    <string name="toss">TOSS : </string>
+    <string name="motm">MOTM : </string>
+    <string name="mots">MAN OF SERIES : </string>
+    <string name="seriesStatus">SERIES STATUS : </string>
+    <string name="result">RESULT : </string>
+
+    <!-- For Rankings Select Category -->
+    <string name="format">Select Format</string>
+
+    <!-- For Ranking Spinner -->
+    <string-array name="format_array">
+        <item>ODI</item>
+        <item>T20</item>
+        <item>TEST</item>
+    </string-array>
+
+    <!-- For Ranking -->
+    <string name="rank">RANK</string>
+    <string name="points">POINTS</string>
+    <string name="ratings">RATING</string>
+    <string name="team">TEAM</string>
+    <string name="player_name">PLAYER NAME</string>
+
+
+    <!-- For Settings gear Icon -->
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">FreeHit Settings</string>
+    <string name="search_hint">player name</string>
+    <string name="app_label">FREEHIT</string>
+    <!-- For Settings player bio-->
+    <string name="batting"><b>BATTING</b></string>
+
+    <!-- For ScoreCard -->
+    <string name="extras"><b>Extras : </b></string>
+    <string name="total"><b>Total : </b></string>
+    <string name="batsman">Batsman</string>
+    <string name="bowler">Bowler</string>
+    <string name="bowling"><b>BOWLING</b></string>
+    <string name="fow"><b>FALL OF WICKETS</b></string>
+    <string name="fall_of_wicket">Fall Of Wicket</string>
+    <string name="no_match_data">No Match Data Available</string>
+
+    <!-- For Past Match Card -->
+    <string name="match_result">MATCH RESULT  :</string>
+    <string name="MOTM">Man Of The Match  :</string>
+    <string name="MOTS">Man Of The Series  :</string>
+
+
+    <string name="action_search">Search</string>
+    <string name="search_hint_matches">Type Team/Stadium/City Name…</string>
+
+    <string name="app_info">About us</string>
+
+    <string name="freehit_description">Freehit is a one stop destination for all your cricket needs and occupies just a tiny bit of space on your mobile device . <br> Our main aim is to enhance the user experience and provided interesting features like night mode , favourite team and polls to engage the users in the world of cricket .</br> <br>Moreover we are <![CDATA[ <a href="https://github.com/aseef17/FreeHit">open source</a>]]> </br> </string>
+    <string name="boilerplate_description">Boilerplate is a young startup located in bangalore and are best known for our creative ideas among clients .We take pleasure in making mobile apps and Websites .Check us out at <![CDATA[ <a href="http://boilerplate.in">boilerplate.in</a>]]></string>
+    <string name="match_data_not_available">Match data not available</string>
+    <string name="dob">DOB :</string>
+    <string name="batting_style">Batting Style :</string>
+    <string name="bowling_style">Bowling Style :</string>
+    <string name="teams_played_for">Teams Played For :</string>
+    <string name="icc_ranking">ICC RANKING</string>
+    <string name="odi">ODI</string>
+    <string name="test">TEST</string>
+    <string name="t20i">T20I</string>
+    <string name="man_of_the_match">MAN OF THE MATCH</string>
+
+    <string name="world_cup">WORLD CUP</string>
+    <string name="ipl">IPL</string>
+    <string name="cl">CL</string>
+    <string name="player_info">PLAYER INFO</string>
+    <string name="personal_information">PERSONAL INFORMATION</string>
+    <string name="progress_of_freehit">PROGRESS OF FREEHIT</string>
+    <string name="update">Update</string>
+    <string name="close">Close</string>
+    <string name="changelog">Changelog</string>
+    <string name="update_available">Update Available</string>
+
+
+</resources>
