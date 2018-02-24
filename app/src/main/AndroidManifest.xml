@@ -39,7 +39,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTask"/>
         <activity android:name=".Matches.MatchesList.UpcomingMatchesActivity">
         <!-- to identify this activity as "searchable" -->
             <meta-data
@@ -61,10 +63,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".Matches.PastMatches.PastMatchScoreCard" />
-        <activity android:name=".Matches.LiveMatches.LiveMatchScoreCard" />
         <activity
-            android:name=".Stats.Player.PlayerSearchActivity"
-            android:launchMode="singleTop"/>
+            android:name=".Matches.LiveMatches.LiveMatchScoreCard"
+            android:launchMode="singleTask"/>
+        <activity
+            android:name=".Stats.Player.PlayerSearchActivity" />
         <activity android:name=".IntoSlider.WelcomeActivity" />
         <activity
             android:name=".News.NewsArticle"

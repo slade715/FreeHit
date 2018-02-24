@@ -203,6 +203,8 @@
     <string name="close">Close</string>
     <string name="changelog">Changelog</string>
     <string name="update_available">Update Available</string>
+    <string name="select_team_s_for_notification">Select team/s for notification</string>
+    <string name="select_countries">Select Countries</string>
 
 
 </resources>
