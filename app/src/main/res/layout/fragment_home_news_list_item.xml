@@ -29,7 +29,7 @@
             <android.support.v7.widget.AppCompatImageView
                 android:id="@+id/image_view"
                 android:layout_width="@dimen/_120sdp"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/_80sdp"
                 android:layout_alignParentStart="true"
                 android:layout_centerHorizontal="true"
                 android:layout_marginStart="@dimen/_3sdp"
@@ -64,8 +64,8 @@
                 android:layout_toEndOf="@+id/image_view"
                 android:paddingEnd="@dimen/_3sdp"
                 android:paddingStart="@dimen/_10sdp"
-                android:textSize="@dimen/_9sdp"
                 android:textColor="?attr/secondarytextcolor"
+                android:textSize="@dimen/_9sdp"
                 tools:text="27 September 2017" />
 
             <TextView

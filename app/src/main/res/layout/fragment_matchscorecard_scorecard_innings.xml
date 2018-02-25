@@ -127,10 +127,45 @@
                 android:background="@color/divider" />
 
             <RelativeLayout
-                android:id="@+id/Extras_table"
+                android:id="@+id/YetToBat_table"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/Batting_Table"
+                android:layout_margin="@dimen/_5sdp">
+
+                <TextView
+                    android:id="@+id/YetToBat_label"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="@string/yet_to_bat"
+                    android:textColor="?attr/textcolor"
+                    android:textSize="@dimen/_11sdp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/YetToBat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_toEndOf="@id/YetToBat_label"
+                    android:textColor="?attr/textcolor"
+                    android:textSize="@dimen/_10sdp"
+                    tools:text="Abcd , Defgh , Ijkl" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_1sdp"
+                android:layout_below="@+id/YetToBat_table"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:background="@color/divider" />
+
+            <RelativeLayout
+                android:id="@+id/Extras_table"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/YetToBat_table"
                 android:layout_margin="@dimen/_5sdp">
 
                 <TextView
