@@ -180,7 +180,7 @@
 
     <string name="app_info">About us</string>
 
-    <string name="freehit_description">Freehit is a one stop destination for all your cricket needs and occupies just a tiny bit of space on your mobile device . <br> Our main aim is to enhance the user experience and provided interesting features like night mode , favourite team and polls to engage the users in the world of cricket .</br> <br>Moreover we are <![CDATA[ <a href="https://github.com/aseef17/FreeHit">open source</a>]]> </br> </string>
+    <string name="freehit_description">Freehit is a one stop destination for all your cricket needs and occupies just a tiny bit of space on your mobile device . <br> Our main aim is to enhance the user experience and provided interesting features like night mode , favourite team and polls to engage the users in the world of cricket .</br> <br>Moreover we are <![CDATA[ <a href="https://github.com/teamboilerplate/FreeHit">open source</a>]]> </br> </string>
     <string name="boilerplate_description">Boilerplate is a young startup located in bangalore and are best known for our creative ideas among clients .We take pleasure in making mobile apps and Websites .Check us out at <![CDATA[ <a href="http://boilerplate.in">boilerplate.in</a>]]></string>
     <string name="match_data_not_available">Match data not available</string>
     <string name="dob">DOB :</string>
@@ -203,9 +203,11 @@
     <string name="close">Close</string>
     <string name="changelog">Changelog</string>
     <string name="update_available">Update Available</string>
-    <string name="select_team_s_for_notification">Select team/s for notification</string>
+    <string name="select_team_s_for_notification">Select team/s for notifications</string>
     <string name="select_countries">Select Countries</string>
     <string name="yet_to_bat">Yet to Bat :</string>
+    <string name="select_psl_teams_for_notifications">select PSL teams for notifications</string>
+    <string name="select_ipl_teams_for_notifications">select IPL teams for notifications</string>
 
 
 </resources>

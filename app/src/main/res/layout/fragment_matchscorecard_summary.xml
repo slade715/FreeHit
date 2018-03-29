@@ -79,7 +79,7 @@
                         android:layout_toEndOf="@id/currentTeamScore"
                         android:textColor="?attr/secondarytextcolor"
                         android:textSize="@dimen/_15sdp"
-                        tools:text="RR 3.53" />
+                        tools:text="CRRR : 3.53" />
 
                     <TextView
                         android:id="@+id/currentTeamOvers"
@@ -90,6 +90,18 @@
                         android:textColor="?attr/secondarytextcolor"
                         android:textSize="@dimen/_16sdp"
                         tools:text="58.5 ov" />
+
+                    <TextView
+                        android:id="@+id/currentTeamRRR"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/_20sdp"
+                        android:layout_below="@id/currentTeamScore"
+                        android:layout_toEndOf="@id/currentTeamOvers"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:textColor="?attr/secondarytextcolor"
+                        android:textSize="@dimen/_16sdp"
+                        tools:text="CRR : 7.8" />
 
                     <!--<android.support.v4.widget.NestedScrollView
                         android:layout_width="wrap_content"

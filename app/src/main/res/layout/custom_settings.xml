@@ -103,21 +103,39 @@
                     android:textSize="@dimen/_15sdp"
                     android:textStyle="bold" />
 
-                <!--<TextView-->
-                    <!--android:id="@+id/country_selected_notifications"-->
-                    <!--android:layout_width="wrap_content"-->
-                    <!--android:layout_height="wrap_content"-->
-                    <!--android:layout_below="@id/title_country_select_notifications"-->
-                    <!--android:layout_marginTop="@dimen/_10sdp"-->
-                    <!--android:textColor="?attr/textcolor"-->
-                    <!--android:textSize="@dimen/_15sdp"-->
-                    <!--tools:text="No country selected" />-->
-
                 <Button
                     android:id="@+id/country_select_notifications"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/title_country_select_notifications"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/custom_button"
+                    android:onClick="select_country"
+                    android:paddingEnd="@dimen/_5sdp"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:text="@string/select_countries"
+                    android:textColor="?attr/buttontextcolor"
+                    android:textSize="@dimen/_10sdp" />
+
+                <TextView
+                    android:id="@+id/title_select_ipl_notifications"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/country_select_notifications"
+                    android:layout_marginTop="@dimen/_15sdp"
+                    android:text="@string/select_ipl_teams_for_notifications"
+                    android:textAllCaps="true"
+                    android:textColor="?attr/textcolor"
+                    android:textSize="@dimen/_15sdp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/ipl_select_notifications"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title_select_ipl_notifications"
                     android:layout_marginBottom="@dimen/_5sdp"
                     android:layout_marginStart="@dimen/_5sdp"
                     android:layout_marginTop="@dimen/_10sdp"

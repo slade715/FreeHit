@@ -30,6 +30,7 @@
                 android:layout_centerHorizontal="true"
                 android:gravity="center_horizontal"
                 android:paddingTop="@dimen/_1sdp"
+                android:textStyle="bold"
                 android:textColor="?attr/textcolor"
                 android:textSize="@dimen/_10sdp"
                 tools:text="Sri Lanka Vs India, 4th ODI" />
