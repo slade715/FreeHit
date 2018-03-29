@@ -94,6 +94,7 @@
             android:name=".Stats.Team.TeamCardsView"
             android:windowSoftInputMode="stateHidden" />
         <activity android:name=".Matches.ScoreCard.PlayingX1" />
+        <activity android:name=".Home.HomeNewsArticle"/>
 
         <service android:name=".Firebase.MyFirebaseMessagingService">
             <intent-filter>
